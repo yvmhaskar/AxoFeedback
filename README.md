@@ -7,9 +7,8 @@ The feedback loop connectivity requires the following software/firmware versions
 
 -MATLAB version: R2021b (tcp/ip commands do not work after this updates)
 
-    Would need to update MATLAB code to tcpclient and tcpserver.
-    
-    Needs the Signal processing toolbox for MATLAB.
+   Would need to update MATLAB code to tcpclient and tcpserver.
+   Needs the Signal processing toolbox for MATLAB.
     
 -Realterm
 
