@@ -43,7 +43,7 @@ for row = 1:height(allData)
     if label == "LOG"
         [d.LOG, logKey] = buildTable(d.LOG, r, logKey);
     end
-%     
+
 %     if label == "ERR"
 %         [d.ERR, errKey] = buildTable(d.ERR, r, errKey);
 %     end
