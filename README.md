@@ -25,6 +25,7 @@ Phase 1: Create a MaxVolContraction file for the normalization of EMG sensors.
       (for help on DELSYS sensors use https://www.delsys.com/downloads/USERSGUIDE/trigno/sdk.pdf) 
  
  3) Don the sensors using the Sensor Placement Protocol below:
+      
       Sensor 1: Left TA: Left Leg Actuator Flag
       
       Sensor 2: Left GAS
@@ -46,7 +47,8 @@ Phase 1: Create a MaxVolContraction file for the normalization of EMG sensors.
    A MaxVolContraction file with te subject number and date_key would be generated in the Live-processing folder.
 
 6) Remove ankle weights.
-   
+
+
 Phase 2: Live-processing
 1) Make sure the MaxVolContraction file is placed in the Live-processing folder. Open the live_stream_processing_3.m file
    Set the HOST_IP address
@@ -58,7 +60,9 @@ Phase 2: Live-processing
 
 4) Start the MATLAB code
    If output gives an error of Low sampling rate: Do the following steps:
+   
    a) Go to the Trigno Control Utility app, click on "Sensor Information" or Settings under any one sensor and ensure it is       at 1926 Hz sampling rate. Click "Apply and Close" and start the MATLAB code.
+   
    b) If the error persists, check the sampling rate of every sensor by checking Sensor Information.
       All sensors should have the following configuration:
       EMG:
@@ -76,6 +80,7 @@ Phase 2: Live-processing
 6) Take readings as you want. Click on the figure and press another key to stop recording.
 
 7) The data would already be recorded as emg_struct and imu_struct with the subject number and date_key.
+
 
 Phase 3: Post-processing the data:
 1) Make sure the emg_struct, imu_struct and MaxVolContraction files are included in the Post-processing folder
