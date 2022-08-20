@@ -58,7 +58,8 @@ Phase 2: Live-processing
 
 3) Don the Axo after preparing them.
 
-4) Start the MATLAB code
+4) Start the MATLAB code.
+
    If output gives an error of Low sampling rate: Do the following steps:
    
    a) Go to the Trigno Control Utility app, click on "Sensor Information" or Settings under any one sensor and ensure it is       at 1926 Hz sampling rate. Click "Apply and Close" and start the MATLAB code.
