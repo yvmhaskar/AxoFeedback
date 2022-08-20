@@ -26,10 +26,15 @@ Phase 1: Create a MaxVolContraction file for the normalization of EMG sensors.
  
  3) Don the sensors using the Sensor Placement Protocol below:
       Sensor 1: Left TA: Left Leg Actuator Flag
+      
       Sensor 2: Left GAS
+      
       Sensor 3: Left SOL: Left Leg Gait Cycle Decider
+      
       Sensor 4: Right TA: Right Leg Actuator Flag
+      
       Sensor 5:Right GAS
+      
       Sensor 6: Right SOL: Right Leg Gait Cycle Decider
 
 4) Don the ankle weights.
@@ -53,7 +58,7 @@ Phase 2: Live-processing
 
 4) Start the MATLAB code
    If output gives an error of Low sampling rate: Do the following steps:
-   a) Go to the Trigno Control Utility app, click on "Sensor Information" or Settings under any one sensor and ensure it is at       1926 Hz sampling rate. Click "Apply and Close" and start the MATLAB code.
+   a) Go to the Trigno Control Utility app, click on "Sensor Information" or Settings under any one sensor and ensure it is       at 1926 Hz sampling rate. Click "Apply and Close" and start the MATLAB code.
    b) If the error persists, check the sampling rate of every sensor by checking Sensor Information.
       All sensors should have the following configuration:
       EMG:
